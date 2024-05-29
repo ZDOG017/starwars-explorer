@@ -1,5 +1,3 @@
-// /swapi-react/src/CharacterDetails.js
-
 import React, { useState, useEffect } from 'react';
 
 function CharacterDetails({ url }) {

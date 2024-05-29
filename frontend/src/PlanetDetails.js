@@ -1,5 +1,3 @@
-// /swapi-react/src/PlanetDetails.js
-
 import React, { useState, useEffect } from 'react';
 
 function PlanetDetails({ url }) {

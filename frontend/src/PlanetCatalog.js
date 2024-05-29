@@ -1,5 +1,3 @@
-// /swapi-react/src/PlanetCatalog.js
-
 import React, { useEffect, useState } from 'react';
 import './StarWarsTheme.css';
 

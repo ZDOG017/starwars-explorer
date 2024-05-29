@@ -1,5 +1,3 @@
-// /swapi-react/src/StarshipDetails.js
-
 import React, { useState, useEffect } from 'react';
 
 function StarshipDetails({ url }) {
