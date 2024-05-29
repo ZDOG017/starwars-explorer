@@ -1,0 +1,132 @@
+/* /swapi-react/src/StarWarsTheme.css */
+
+/* General styles */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Star Jedi", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Star Jedi", sans-serif;
+  color: #ffd700;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Form styles */
+form {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd700;
+  color: #000;
+  cursor: pointer;
+  font-family: "Star Jedi", sans-serif;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #333;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #111;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content button {
+  margin-top: 20px;
+}
+
+/* Planet catalog styles */
+.PlanetCatalog {
+  text-align: left;
+  padding: 20px;
+}
+
+.PlanetCatalog ul {
+  list-style: none;
+  padding: 0;
+}
+
+.PlanetCatalog ul li {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.PlanetCatalog ul li:hover {
+  background-color: #333;
+}
